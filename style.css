@@ -1,0 +1,68 @@
+body {
+  background:  url("bg2.png");
+  background-size: cover;
+  
+  
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-container a {
+  width: 80%;
+  color: white;
+  text-shadow: 4px 2px 9px black;
+}
+
+.w3-theme-l1:hover {
+  background-color: #aa00ff !important;
+}
+
+.margin-top-2 {
+  color: white;
+  margin-top: 32px;
+  font-family: serif;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px black;
+  
+}
+
+.bottom {
+  width: 100%;
+  text-align: center;
+  width: auto;
+  font-weight: bolder;
+}
+
+.bottom span {
+  color: #ed4d82;
+}
+
+.bottom svg {
+  stroke: #ed4d82;
+  fill: #ed4d82;
+}
+
+@media (min-width: 768px) {
+  .link {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
